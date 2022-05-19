@@ -144,10 +144,15 @@ Create a `.eslintrc` file in the project root and enter the below contents:
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 8
+    "ecmaVersion": 8,
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
   },
+  "ignorePatterns": ["**/Server/*", "**/node_modules/*", "**/library/**", "/sw.js"],
   "env": {
     "browser": true,
     "node": true,
@@ -156,13 +161,23 @@ Create a `.eslintrc` file in the project root and enter the below contents:
   },
   "rules": {
     "react/react-in-jsx-scope": 0,
-    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/rules-of-hooks": 0,
+    "react/no-unescaped-entities": 0,
     "no-console": 0,
     "react/state-in-constructor": 0,
     "indent": 0,
     "linebreak-style": 0,
     "react/prop-types": 0,
     "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "consistent-return": 0,
+    "no-plusplus": 0,
+    "prefer-promise-reject-errors": 0,
+    "no-useless-escape": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "no-underscore-dangle": 0,
+    "import/prefer-default-export": 0,
     "react/jsx-filename-extension": [
       1,
       {
@@ -170,12 +185,12 @@ Create a `.eslintrc` file in the project root and enter the below contents:
       }
     ],
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 100,
-        "tabWidth": 4,
+        "tabWidth": 2,
         "semi": true,
         "endOfLine": "auto"
       }
