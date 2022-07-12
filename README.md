@@ -8,7 +8,7 @@ Please follow the below instructions to run this project in your computer:
    ```sh
    yarn global remove create-react-app
    ```
-2. For Remove react-app
+2. For install react-app
    ```sh
    npx create-react-app myreact
    ``` 
