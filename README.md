@@ -1,5 +1,17 @@
 <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">Install React- app [ in Bangla ]</a></h3>
 
+## react-app setup
+
+Please follow the below instructions to run this project in your computer:
+
+1. For Remove react-app
+   ```sh
+   yarn global remove create-react-app
+   ```
+2. For Remove react-app
+   ```sh
+   npx create-react-app myreact
+   ``` 
 
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook-Page][facebook-shield]][facebook-url]
