@@ -1,4 +1,4 @@
-<h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">Install React- app [ in Bangla ]</a></h3>
+<h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">Install React- app </a></h3>
 
 ## react-app setup
 
@@ -11,6 +11,22 @@ Please follow the below instructions to run this project in your computer:
 2. For install react-app
    ```sh
    npx create-react-app myreact
+   ``` 
+   
+   
+<h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">For React Error</a></h3>
+
+## Resolve the Errors
+
+Please follow the below instructions to run this project in your computer:
+
+1. For "babel/eslint-parser" Error
+   ```sh
+   yarn add eslint @babel/core @babel/eslint-parser -D
+   ```
+2. For "react" was conflicted between ".eslintrc" Error
+   ```sh
+   npm install --dev eslint-config-react-app
    ``` 
 
 [![Youtube][youtube-shield]][youtube-url]
