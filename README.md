@@ -99,20 +99,20 @@ Follow the below settings for VS Code -
 ```json
 {
   // Theme
-  "workbench.colorTheme": "Dracula",
+  // "workbench.colorTheme": "Dracula",
 
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "javascript.validate.enable": true, //disable all built-in syntax checking
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
@@ -125,6 +125,7 @@ Follow the below settings for VS Code -
     "javascript": "javascriptreact"
   }
 }
+
 ```
 
 If you followed all previous steps, the theme should change and your editor should be ready.
