@@ -184,7 +184,12 @@ Create a `.eslintrc` file in the project root and enter the below contents:
       "presets": ["@babel/preset-react"]
     }
   },
-  "ignorePatterns": ["**/Server/*", "**/node_modules/*", "**/library/**", "/sw.js"],
+  "ignorePatterns": [
+    "**/Server/*",
+    "**/node_modules/*",
+    "**/library/**",
+    "/sw.js"
+  ],
   "env": {
     "browser": true,
     "node": true,
@@ -192,6 +197,13 @@ Create a `.eslintrc` file in the project root and enter the below contents:
     "jest": true
   },
   "rules": {
+    // "react/sort-comp": 0,
+    // "react/jsx-no-bind": 0,
+    "jsx-a11y/mouse-events-have-key-events": 0,
+    "react/prefer-stateless-function": 0,
+    "class-methods-use-this": 0,
+    "react/no-access-state-in-setstate": 0,
+    "react/destructuring-assignment": 0,
     "react/react-in-jsx-scope": 0,
     "react-hooks/rules-of-hooks": 0,
     "react/no-unescaped-entities": 0,
@@ -220,8 +232,8 @@ Create a `.eslintrc` file in the project root and enter the below contents:
       "warn",
       {
         "trailingComma": "es5",
-        "singleQuote": true,
-        "printWidth": 100,
+        "singleQuote": false,
+        // "printWidth": 100,
         "tabWidth": 2,
         "semi": true,
         "endOfLine": "auto"
@@ -230,6 +242,7 @@ Create a `.eslintrc` file in the project root and enter the below contents:
   },
   "plugins": ["prettier", "react", "react-hooks"]
 }
+
 ```
 
 <!-- CONTACT -->
