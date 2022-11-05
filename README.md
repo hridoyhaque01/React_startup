@@ -39,6 +39,12 @@ Please follow the below instructions to run this project in your computer:
    ```sh
    import "bootstrap/dist/js/bootstrap.bundle";
    ```
+   
+ <h3 align="center">github link remote add</h3>
+ 
+ ```sh
+ git remote add origin 
+ ```
  
 <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">For React Error</a></h3>
 
