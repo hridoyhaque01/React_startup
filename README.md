@@ -12,8 +12,34 @@ Please follow the below instructions to run this project in your computer:
    ```sh
    npx create-react-app myreact
    ``` 
+3. For install react router dom
+
+   ```sh
+   yarn add react-router-dom@6
+   ```
+4. For install styled component
+
+   ```sh
+   npm install --save styled-components
+   ```
+5. For install react bootstrap
    
+   ```sh
+   npm install react-bootstrap bootstrap
+   ```
    
+ 6. For implement react bootstrap
+   <h3>css</h3>
+   
+   ```sh
+   import 'bootstrap/dist/css/bootstrap.min.css';
+   ```
+   <h3>js</h3>
+   
+   ```sh
+   import "bootstrap/dist/js/bootstrap.bundle";
+   ```
+ 
 <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">For React Error</a></h3>
 
 ## Resolve the Errors
