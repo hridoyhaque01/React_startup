@@ -132,8 +132,16 @@ Follow the below settings for VS Code -
 {
   // Theme
   // "workbench.colorTheme": "Dracula",
-
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
   // config related to code formatting
+  "editor.mouseWheelZoom": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
@@ -155,8 +163,10 @@ Follow the below settings for VS Code -
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "editor.fontFamily": "'Fira Code'"
 }
+
 
 ```
 
