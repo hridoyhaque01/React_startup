@@ -193,10 +193,11 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
 
 or You can also add a new script in the scripts section like below to install everything with a single command:
 
+<h4>script </h4>
+
 ```json
-scripts: {
     "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
-}
+
 ```
 
 and then simply run the below command in the terminal -
