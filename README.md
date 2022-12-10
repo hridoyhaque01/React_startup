@@ -31,8 +31,8 @@ Please follow the below instructions to run this project in your computer:
     7. For implement owl carousel
    ```sh
    import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+   import 'owl.carousel/dist/assets/owl.carousel.css';
+   import 'owl.carousel/dist/assets/owl.theme.default.css';
    ```
 otstrap/dist/js/bootstrap.bundle";
    ```
