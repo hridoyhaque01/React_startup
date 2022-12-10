@@ -27,6 +27,16 @@ Please follow the below instructions to run this project in your computer:
    ```sh
    npm i react-owl-carousel
    ```
+   
+    7. For implement owl carousel
+   ```sh
+   import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+   ```
+otstrap/dist/js/bootstrap.bundle";
+   ```
+   
 6. For install react bootstrap
    
    ```sh
