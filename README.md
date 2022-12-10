@@ -22,13 +22,18 @@ Please follow the below instructions to run this project in your computer:
    ```sh
    npm install --save styled-components
    ```
-5. For install react bootstrap
+5. For install owl carousel
+
+   ```sh
+   npm i react-owl-carousel
+   ```
+6. For install react bootstrap
    
    ```sh
    npm install react-bootstrap bootstrap
    ```
    
- 6. For implement react bootstrap
+ 7. For implement react bootstrap
    <h3>css</h3>
    
    ```sh
